@@ -75,23 +75,25 @@ const Routers = function ({ history, app }) {
                   cb(null, require('./routes/account/User'))
                 }, 'account-user')
               },
-            }, {
-              path: 'role',
-              name: 'role',
-              getComponent (nextState, cb) {
-                require.ensure([], (require) => {
-                  registerModel(app, require('./models/account/role'))
-                  cb(null, require('./routes/account/Role'))
-                }, 'account-role')
-              },
-            }, {
+            }, 
+            // {
+            //   path: 'role',
+            //   name: 'role',
+            //   getComponent (nextState, cb) {
+            //     require.ensure([], (require) => {
+            //       registerModel(app, require('./models/account/role'))
+            //       cb(null, require('./routes/account/Role'))
+            //     }, 'account-role')
+            //   },
+            // }, 
+            {
               path: 'teacher',
               name: 'teacher',
-              getComponent (newtState, cd) {
+              getComponent (newtState, cb) {
                 require.ensure([], (require) => {
-                  registerModel(app, require('./models/account/role'))
-                  cb(null, require('./routes/account/Role'))
-                }, 'accout-role')
+                  registerModel(app, require('./models/account/teacher'))
+                  cb(null, require('./routes/account/Teacher'))
+                }, 'accout-teacher')
               },
             },
           ],

@@ -26,18 +26,19 @@ const menu = [
         name: '管理员',
         power: [1, 2, 3, 4, 5],
       },
-      {
-        id: _.uniqueId(),
-        key: 'role',
-        name: '管理员角色',
-        power: [1, 2, 3, 4, 5],
-      },
+      // {
+      //   id: _.uniqueId(),
+      //   key: 'role',
+      //   name: '管理员角色',
+      //   power: [1, 2, 3, 4, 5],
+      // },
       {
         id: _.uniqueId(),
         key: 'user',
         name: '学生',
         power: [1, 2, 3, 4, 5],
-      },{
+      },
+      {
         id: _.uniqueId(),
         key: 'teacher',
         name: '教师',
