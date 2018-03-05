@@ -70,15 +70,15 @@ function List ({
       title: 'ID',
       dataIndex: 'id',
       key: 'id',
-     }, 
-     //{
+    },
+    // {
     //   title: '头像',
     //   dataIndex: 'image',
     //   key: 'image',
     //   width: 64,
     //   className: styles.avatar,
     //   render: text => <img width={24} src={text} alt={text} />,
-    // }, 
+    // },
     {
       title: '用户名',
       dataIndex: 'name',
@@ -91,7 +91,7 @@ function List ({
       title: '邮箱',
       dataIndex: 'email',
       key: 'email',
-    }, 
+    },
     // {
     //   title: '角色',
     //   dataIndex: 'roleName',
@@ -102,11 +102,11 @@ function List ({
       dataIndex: 'created_at',
       key: 'created_at',
       render: value => new Date(+value).format('yyyy-MM-dd HH:mm:ss'),
-    },{
+    }, {
       title: '班级学院',
       dataIndex: 'class',
       key: 'class',
-    } ,{
+    }, {
       title: '状态',
       dataIndex: 'status',
       key: 'status',

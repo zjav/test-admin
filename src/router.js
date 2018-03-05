@@ -75,7 +75,7 @@ const Routers = function ({ history, app }) {
                   cb(null, require('./routes/account/User'))
                 }, 'account-user')
               },
-            }, 
+            },
             // {
             //   path: 'role',
             //   name: 'role',
@@ -85,7 +85,7 @@ const Routers = function ({ history, app }) {
             //       cb(null, require('./routes/account/Role'))
             //     }, 'account-role')
             //   },
-            // }, 
+            // },
             {
               path: 'teacher',
               name: 'teacher',

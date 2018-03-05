@@ -41,7 +41,7 @@ function List ({
       title: '分类编号',
       dataIndex: 'cid',
       key: 'cid',
-    }, 
+    },
     // {
     //   title: '分类图标',
     //   dataIndex: 'avatar',
@@ -49,7 +49,7 @@ function List ({
     //   render (avatar) {
     //     return <img className={styles.avatar} src={avatar} alt={avatar} />
     //   },
-    // }, 
+    // },
     {
       title: '分类名称',
       dataIndex: 'name',
